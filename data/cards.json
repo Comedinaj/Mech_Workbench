@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fixture-001",
+    "title": "Simple Cube",
+    "author": "seed",
+    "description": "A basic 10×10×10 mm cube generated with JSCAD.",
+    "thumbnail": "",
+    "jscadSource": "const { primitives } = require('@jscad/modeling');\nconst { cuboid } = primitives;\nexports.main = () => cuboid({ size: [10, 10, 10] });",
+    "parentId": null,
+    "manufacturingProcesses": ["FDM"],
+    "flags": {
+      "has2DDrawing": false,
+      "hasFEM": false,
+      "hasManufacturingInstructions": false
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  }
+]
